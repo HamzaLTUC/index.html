@@ -1,0 +1,25 @@
+#nav {
+    background-color:violet;
+    font-family: verdana;
+
+    
+  } 
+.background{
+    background-image: url(https://t4.ftcdn.net/jpg/03/05/83/85/360_F_305838518_1FmMMW6zLJ3KQ7MSdeImEUgMs5zYXlhP.jpg) ;
+}
+
+.photo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.para{
+    text-align: center;
+    font-size: 25px;
+    color: #037272 ;
+    font-weight: bold;
+}
+
+
+
