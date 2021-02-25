@@ -22,16 +22,11 @@ function avgSpending (ABdunBranch , Jubayhah , CityMall){
     Counter+=1 ;
     }
     avgSpending (ABdunBranch ,Jubayhah ,  CityMall ) ;
-    // var img1 = document.getElementById("img1");
-    // img1.src = "JavaBeans.jpg";
-    
-    var div1 = document.getElementById("div1");
-        
-    for (var i=0; i<10; i++){
-        var img1 = document.createElement("img");
-        img1.setAttribute("src", "https://www.creativefabrica.com/wp-content/uploads/2018/10/Coffee-logo-by-Friendesign-Acongraphic-1.jpg");
-        img1.setAttribute("height", "200");
-        img1.setAttribute("width", "200");
-        img1.setAttribute("alt", "Beans");
-        div1.appendChild(img1);    
-    }
+
+
+
+    var picNo = prompt (" How much you rate us 1-10 ");
+    for (var i =0 ; i< picNo ; i++){
+        document.write('<img src = " https://post.healthline.com/wp-content/uploads/2020/03/Starbucks_Storefront_1200x628-facebook-1200x628.jpg" />');
+    } ;
+ 
